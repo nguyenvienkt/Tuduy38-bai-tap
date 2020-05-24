@@ -1,0 +1,12 @@
+
+public class KieuDuLieu {
+
+	public static void main(String[] args) {
+		// Kiểu dữ liệu
+		System.out.println(2020);
+		System.out.println("Vien");
+		System.out.println('@'); // Kí tự trong dấu nháy đơn ''
+		System.out.println('8');// chỉ được 1 ký tự, không được từ 2 kí tự trở lên
+	}
+
+}

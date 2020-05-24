@@ -1,0 +1,10 @@
+
+public class Bien {
+
+	public static void main(String[] args) {
+		// Biến  - Variable
+		System.out.println(2020+2020);
+
+	}
+
+}

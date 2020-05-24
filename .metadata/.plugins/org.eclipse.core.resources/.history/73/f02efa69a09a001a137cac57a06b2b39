@@ -1,0 +1,13 @@
+
+public class Bien {
+
+	public static void main(String[] args) {
+		// Biến  - Variable - giống như cái xô đựng nước để mình xài. Là khái niệm dùng để lưu trữ một giá trị xài nhiều lần trong dự án
+		System.out.println(2020);
+		System.out.println(2020);
+		System.out.println(2020);
+		System.out.println(2020);
+
+	}
+
+}

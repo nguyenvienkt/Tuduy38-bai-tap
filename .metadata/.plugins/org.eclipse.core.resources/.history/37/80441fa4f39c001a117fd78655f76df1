@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TinhTienLuongNhanVien {
+
+	public static void main(String[] args) {
+		// Code đầu vào
+		Scanner soNgayDiLam = new Scanner(System.in);		
+		System.out.println("Số ngày nhân viên đi làm là: ");
+		
+		// Code xử lý
+		double tongLuong = soNgayDiLam.nextDouble()*100000;
+		
+		// Code xuất
+		System.out.println("Tiền lương nhân viên là: " + (tongLuong));
+
+	}
+
+}

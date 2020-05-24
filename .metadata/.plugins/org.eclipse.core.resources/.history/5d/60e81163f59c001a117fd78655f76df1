@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Bai2TinhGiaTriTrungBinh {
+
+	public static void main(String[] args) {
+		// Code đầu vào
+//		int ngayLuong = 100000;
+//		Scanner soNgayDiLam = new Scanner(System.in);		
+//		System.out.println("Số ngày nhân viên đi làm là: ");
+//		float soThucMot = 5;
+		Scanner soThucMot = new Scanner(System.in);
+		System.out.println("Nhập Số Thực 1 là: ");
+		float mot = soThucMot.next(Float);
+		
+		
+		
+		// Code xử lý
+//		int tongLuong = soNgayDiLam.nextInt()*ngayLuong;
+		
+		// Code xuất
+		System.out.println("Tiền lương nhân viên là: " + (tongLuong));
+		
+		
+
+	}
+
+}

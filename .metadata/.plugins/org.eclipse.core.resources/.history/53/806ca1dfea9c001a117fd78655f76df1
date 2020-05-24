@@ -1,0 +1,14 @@
+
+public class TinhTienLuongNhanVien {
+
+	public static void main(String[] args) {
+		// Code đầu vào
+		
+		// Code xử lý
+		
+		// Code xuất
+		System.out.println("Tiền lương nhân viên là");
+
+	}
+
+}

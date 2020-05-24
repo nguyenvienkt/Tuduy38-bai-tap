@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Bai2TinhGiaTriTrungBinh {
+
+	public static void main(String[] args) {
+		// Code đầu vào
+		Scanner soThucMot = new Scanner(System.in);
+		System.out.println("Nhập Số Thực 1 là: ");
+		float mot = soThucMot.nextFloat();
+		
+		Scanner soThucHai = new Scanner(System.in);
+		System.out.println("Nhập Số Thực 2 là: ");
+		float hai = soThucHai.nextFloat();
+		
+		Scanner soThucBa= new Scanner(System.in);
+		System.out.println("Nhập Số Thực 3 là: ");
+		float ba = soThucBa.nextFloat();
+		
+		Scanner soThucBon = new Scanner(System.in);
+		System.out.println("Nhập Số Thực 4 là: ");
+		float bon = soThucBon.nextFloat();
+		
+		Scanner soThucNam = new Scanner(System.in);
+		System.out.println("Nhập Số Thực 5 là: ");
+		float soNam = soThucNam.nextFloat();
+		
+		// Code xử lý
+//		int tongLuong = soNgayDiLam.nextInt()*ngayLuong;
+		float tongSoThuc = mot.floatValue()+ hai.floatValue();
+		
+		// Code xuất
+		System.out.println("Trung bình cộng năm số thực là: " + (tongSoThuc));
+		
+		
+
+	}
+
+}
